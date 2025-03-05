@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+There is a limited support for styles and roles in voices;
+See https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts#voice-styles-and-roles
+-->
+<speak version="1.0" 
+       xmlns="http://www.w3.org/2001/10/synthesis" 
+       xmlns:mstts="https://www.w3.org/2001/mstts" 
+       xml:lang="nl-NL">
+  <voice name="en-US-AndrewMultilingualNeural">
+    <mstts:express-as style="empathetic" styledegree="1">
+      <lang xml:lang="nl-NL">
+        <prosody pitch="-7%" rate="+15%" volume="-7%">
+          <p>Hé Sarah! <break time="800ms" />Houd jij niet van bubbels?</p>
+        </prosody>
+      </lang>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-SerenaMultilingualNeural">
+    <mstts:express-as style="excited" styledegree="2">
+      <lang xml:lang="nl-NL">
+        <prosody pitch="+7%" rate="-7%" volume="-7%">
+          <p>Jaaah!</p>
+        </prosody>
+      </lang>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-AndrewMultilingualNeural">
+    <mstts:express-as style="empathetic" styledegree="1">
+      <lang xml:lang="nl-NL">
+        <prosody pitch="-7%" rate="+15%" volume="-7%">
+          <p>Oh. Ik dacht dat jij juist van bubbels hield?</p>
+          <break time="800ms" />
+        </prosody>
+      </lang>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-SerenaMultilingualNeural">
+    <mstts:express-as style="serious" styledegree="2">
+      <lang xml:lang="nl-NL">
+        <prosody pitch="+7%" rate="-7%" volume="-7%">
+          <p>Dat doe ik ook. Ik zeg toch: ja?</p>
+        </prosody>
+      </lang>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-AndrewMultilingualNeural">
+    <mstts:express-as style="relieved" styledegree="2">
+      <lang xml:lang="nl-NL">
+        <prosody pitch="-7%" rate="+7%" volume="-7%">
+          <p>Daarom juist! Je zei: ja.</p>
+        </prosody>
+      </lang>
+    </mstts:express-as>
+  </voice>
+</speak>

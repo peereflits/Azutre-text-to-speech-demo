@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Speech.Demo": {
+      "commandName": "Project",
+      "commandLineArgs": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

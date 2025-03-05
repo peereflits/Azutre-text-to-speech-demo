@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="nl-NL">
+  <voice name="en-US-RyanMultilingualNeural">
+    <lang xml:lang="nl-NL">
+      <prosody pitch="-7%" rate="-7%" volume="-7%">
+        <p>Hé Sarah! <break time="800ms" />Houd jij niet van bubbels?</p>
+      </prosody>
+    </lang>
+  </voice>
+  <voice name="en-US-JennyMultilingualV2Neural">
+    <lang xml:lang="nl-NL">
+      <prosody pitch="+7%" rate="-7%" volume="-7%">
+        <p>Jaaah.</p>
+      </prosody>
+    </lang>
+  </voice>
+  <voice name="en-US-RyanMultilingualNeural">
+    <lang xml:lang="nl-NL">
+      <prosody pitch="-7%" rate="-7%" volume="-7%">
+        <p>Oh. Ik dacht dat jij van bubbels hield?</p>
+        <break time="800ms" />
+      </prosody>
+    </lang>
+  </voice>
+  <voice name="en-US-JennyMultilingualV2Neural">
+    <lang xml:lang="nl-NL">
+      <prosody pitch="+7%" rate="-7%" volume="-7%">
+        <p>Dat doe ik ook. Ik zeg toch "Ja"?</p>
+      </prosody>
+    </lang>
+  </voice>
+  <voice name="en-US-RyanMultilingualNeural">
+    <lang xml:lang="nl-NL">
+      <prosody pitch="-7%" rate="-7%" volume="-7%">
+        <p>Daarom juist.</p>
+      </prosody>
+    </lang>
+  </voice>
+</speak>
