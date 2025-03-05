@@ -6,6 +6,10 @@
 
 This repository contains a simple console application that demos the possibilities of Azure Text-to-Speech synthesis by using SSML (Speech Synthesis Markup Language - an xml-dialect).
 
+Before running the application, make sure you have an Azure subscription and a Speech resource. You can create a Speech resource in the Azure portal or by using the Azure CLI. Update the speech key and location in the [appsettings.json](./src/Speech.Demo/appsettings.json) file.
+
+## Concepts and definitions
+
 There are multiple ways of working with speech and text in an AI matter:
 * **TTS**: Text-To-Speech
 * **STT**: Speech-To-Text
@@ -19,8 +23,6 @@ There are multiple ways of working with speech and text in an AI matter:
 See: [OpenAI text to speech voices via Azure OpenAI Service or via Azure AI Speech?](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/openai-voices#openai-text-to-speech-voices-via-azure-openai-service-or-via-azure-ai-speech) or [Azure Text-To-Speech](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/get-started-text-to-speech?tabs=windows%2Cterminal&pivots=programming-language-csharp) and [Azure Open AI Text-To-Speech](https://learn.microsoft.com/en-us/azure/ai-services/openai/text-to-speech-quickstart?tabs=command-line%2Ckeyless%2Ctypescript-keyless&pivots=programming-language-dotnet).
 
 TTS is part of Azure Cognitive Services, which is nowadays called "Azure AI services". As this demo is about TTS, [Get started with Azure Cognitive Services for Language](https://language.cognitive.azure.com/) is not applicable.
-
-## Concepts and definitions
 
 When talking about speech (in SST or TTS) there are three different voices:
 * Human voice: a voice produced by the vocal cords of human body.
@@ -53,7 +55,6 @@ using var synthesizer = new SpeechSynthesizer(speechConfig, null); // explicit s
 using var result = await synthesizer.SpeakSsmlAsync(ssml);
 ```
 and save the `result.AudioData`.
-
 
 ## Documentation
 * [Text to speech documentation](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/index-text-to-speech)
